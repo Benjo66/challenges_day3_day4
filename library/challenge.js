@@ -35,9 +35,9 @@ function insertion_sort(arr) {
   return arr;
 }
 
-//? Yuri
+//? Yusri
 function priceOfBook(bookName) {
-  // write your code here
+  // using linear search
   if (bookName === "") return "Not Found"; // we should declare not found, to not waste time waiting the whole loop to end. for performance
   for (let i = 0; i < books.length; i++) {
     if (books[i].title === bookName) {
